@@ -1,10 +1,10 @@
 public class PrimitiveDataTypes {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //byte has a width of 8
         byte byteValue = 127;
-        byte byteValue2 = (byte)(byteValue/2);
+        byte byteValue2 = (byte) (byteValue / 2);
         System.out.println("myByte: " + byteValue2);
 
         //short has a width of 16
@@ -21,7 +21,7 @@ public class PrimitiveDataTypes {
         byte byteVar = 120;
         short shortVar = -32000;
         int intVar = 2_100_000_000;
-        long longVar = 50000L + 10L*(byteVar+shortVar+intVar);
+        long longVar = 50000L + 10L * (byteVar + shortVar + intVar);
         System.out.println("longTotal: " + longVar);
 
         short shortVar2 = (short) longVar;
@@ -36,7 +36,7 @@ public class PrimitiveDataTypes {
         //Challenge
         double numberPounds = 200d;
         final double POUND_TO_KG = 0.45359237d;
-        double totalKg = numberPounds*POUND_TO_KG;
+        double totalKg = numberPounds * POUND_TO_KG;
 
         System.out.println("totalKg: " + totalKg);
 
@@ -46,7 +46,7 @@ public class PrimitiveDataTypes {
         System.out.println("Silvia Figueroa" + myChar);
 
         boolean myBoolean = false;
-        if (myBoolean){
+        if (myBoolean) {
             System.out.println("It's true");
         } else {
             System.out.println("It's false");
