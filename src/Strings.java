@@ -21,5 +21,12 @@ public class Strings {
         lastString = lastString + doubleNumber;
         System.out.println("lastString value: " + lastString);
 
+        testingThis();
+
+    }
+
+    public static int testingThis(){
+        System.out.println("test");
+        return 1;
     }
 }
